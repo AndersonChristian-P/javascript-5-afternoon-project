@@ -69,10 +69,10 @@ function Car(make, model, year) {
   this.make = make
   this.model = model
   this.year = year
+  this.move = 0
 
   this.moveCar = function () {
-    let move = 0
-    return move += 10
+    return this.move += 10
   }
 }
 
